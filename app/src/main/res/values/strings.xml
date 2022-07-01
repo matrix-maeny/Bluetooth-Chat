@@ -1,0 +1,18 @@
+<resources>
+    <string name="app_name">Bluetooth Chat</string>
+    <string name="scan_devices">Scan devices</string>
+    <string name="host">Host</string>
+    <string name="client">Client</string>
+    <string name="scan">Scan</string>
+    <string name="textview">TextView</string>
+    <string name="enable_discoverability">Enable discoverability</string>
+    <string name="user_info">You have to wait until the HOST connects your device.\n\nIf device is not visible to the HOST, please Enable Discoverability.</string>
+    <string name="status_active_neutral">Status: Active|Neutral</string>
+    <string name="clear_chat">Clear chat</string>
+    <string name="about">About</string>
+    <string name="no_devices_found">No devices found</string>
+    <string name="target_matrix">Target: matrix</string>
+    <string name="disconnect">Disconnect</string>
+    <string name="enter_message">Enter message</string>
+    <string name="send">send</string>
+</resources>

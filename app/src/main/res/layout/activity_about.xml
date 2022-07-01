@@ -1,0 +1,37 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.constraintlayout.widget.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@color/mainBackground1"
+    tools:context=".AboutActivity">
+
+    <ScrollView
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.5"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent"
+        tools:ignore="SpeakableTextPresentCheck">
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:orientation="vertical"
+            android:padding="5dp">
+
+            <TextView
+                android:id="@+id/textView3"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginTop="30dp"
+                android:padding="10dp"
+                android:text="Hi, I'm Matrix.\n\nThe application 'Bluetooth Chat', which you are using now, is able to communicate with neighbours or your friends.\n\nYou can chat, and can save chats, delete chats.\n\nYou can only connect with one device at a time.\n\nProcess to connect:--------\n\nInitially open the app in TWO devices, which you want to connect.\nNow click 'HOST' in one device and click 'CLIENT' on second device.\n\nClient asks to allow DISCOVERABILITY to make HOST detect the CLIENT. \nThe HOST runs scan for 12 seconds to detected the surrounding devices.\nAfter the device is detected in the HOST, click the CLIENT device's name in the HOST list to initiate connection. After both devices are connected, start chatting.\n\nChats are Automatically saved either when you press disconnect, or when you go back.\n\nIf the Host shows a message 'Error: Go back and restart Host and Client', then you need to go back and start the HOST and CLIENT (by pressing the buttons HOST/CLIENT buttons at the beginning) on either sides (HOST side and CLIENT side).\n\nPoints to be noted:\n\nThe HOST can connect with only one client.\n\nIf you disconnect from HOST side, then you need to restart the client again.If you disconnect from CLIENT side, then you need not to restart the HOST.\n\nThe chats are automatically saved.\n\nTo clear chats of a certain devices, Long press on the device's name before making a connection, then you will get the 'Clear Chats option'.\n\nTo run the scan in the HOST again, you need to go back and restart HOST again...\n\n\nSerial number: 11\nDate of creation: 23 February 2022\nContact us: matrixinventions@gmail.com"
+                android:textColor="#FFFFFF"
+                android:textSize="16sp" />
+        </LinearLayout>
+    </ScrollView>
+</androidx.constraintlayout.widget.ConstraintLayout>
